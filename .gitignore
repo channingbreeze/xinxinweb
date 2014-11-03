@@ -6,6 +6,7 @@
 node_modules
 temp/
 logs/
+.gitignore
 .settings
 uploads
 .buildpath
