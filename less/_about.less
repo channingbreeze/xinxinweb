@@ -1,0 +1,48 @@
+.middle_main {
+	.nav_div {
+		height : 500px;
+		overflow : auto;
+		width : 300px;
+		margin-left : 49px;
+		float : left;
+		border-right : 1px solid #B7B4B4;
+		ul {
+			margin-top : 30px;
+			margin-left : 10px;
+			li {
+				list-style-type : none;
+				font-size : 20px;
+				color : #08488F;
+				cursor : pointer;
+				margin-top : 5px;
+				&:hover {
+					color : red;
+				}
+			}
+		}
+	}
+	.about_info_div {
+		width : 600px;
+		margin-left : 50px;
+		height : 500px;
+		float : left;
+		.info {
+			width : 560px;
+			margin : 20px auto;
+			display : none;
+			&.active {
+				display : block;
+			}
+			.title {
+				font-size : 30px;
+				font-weight : bold;
+				display : block;
+				text-align : center;
+			}
+			.text {
+				margin-top : 20px;
+				line-height : 30px;
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+define(function(){ var tpl={"myWebs":"{{#each this}}<li data-dir='{{id}}'>{{webname}}</li>{{/each}}"}; return tpl['myWebs'];});
