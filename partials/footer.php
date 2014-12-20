@@ -9,7 +9,7 @@
 				QQ：396417401&nbsp;&nbsp;&nbsp;&nbsp;
 				微信号：xin874058
 				<?php 
-				if(isset($_SESSION['user']) && $_SESSION['user']['is_admin']) {
+				if(isset($_SESSION['user']) && isset($_SESSION['user']['is_admin']) && $_SESSION['user']['is_admin']) {
 				?>
 				<a href="admin.php">&nbsp;</a>
 				<?php 

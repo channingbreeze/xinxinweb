@@ -35,8 +35,14 @@ define(function(require, exports, module){
 				var lis = $('#mystatus_ul').find('li');
 				for(var i=0;i<status.length-1;i++) {
 					$(lis[i]).addClass('complete');
+					$(lis[i]).removeClass('current');
 				}
 				$(lis[status.length-1]).addClass('current');
+				$(lis[status.length-1]).removeClass('complete');
+				for(var i=status.length;i<5;i++) {
+					$(lis[i]).removeClass('complete');
+					$(lis[i]).removeClass('current');
+				}
 			}
 		});
 	};

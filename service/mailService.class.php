@@ -3,10 +3,10 @@
 require_once dirname ( __FILE__ ) . '/../tools/phpmailer/class.phpmailer.php';
 
 class MailService {
-	
-	private $host = "smtp.yeah.net";
-	private $userName = "xinxinweb@yeah.net";
-	private $password = "hao1lie2July";
+
+	private $host = "smtp.163.com";
+	private $userName = "horse_dreamer@163.com";
+	private $password = "horse2014dreamer";
 	
 	// 给一组email发邮件，携带附件
 	public function sendEmail($emails, $subject, $content, $attachments) {
@@ -20,7 +20,7 @@ class MailService {
 		$mail->Username = $this->userName;
 		$mail->Password = $this->password;
 		$mail->From = $this->userName;
-		$mail->FromName = "Dreamer";
+		$mail->FromName = "欣欣网站制作";
 		foreach($emails as $email) {
 			$mail->AddAddress ( $email );
 		}

@@ -23,6 +23,7 @@ if(!(isset($_POST['website_name']) && isset($_POST['demand']))
 		if($res) {
 			$mailService = new MailService();
 			$mailService->sendToAdminEmail($_SESSION['user']['username']);
+			$mailService->sendToUserEmail($_SESSION['user']['username']);
 			echo "true";
 		} else {
 			echo "false";
