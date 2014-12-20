@@ -44,7 +44,7 @@ define(function(require, exports, module){
 	// 更新我的网站
 	var myWebs = require('tpl/myWebs');
 	var refreshMyWebsites = function() {
-		$.post('inter/getMyWebs.php', 'userid='+USERID, function(data) {
+		$.post('inter/getMyWebs.php', '', function(data) {
 			data = JSON.parse(data);
 			if(typeof(data)=="object" && data.length!=0) {
 				$('.myweb_none').css('display', 'none');
@@ -73,7 +73,7 @@ define(function(require, exports, module){
 	});
 	
 	$('#add_web').on('click', function() {
-		$.post('inter/needMoreInfo.php', 'userid='+USERID, function(data) {
+		$.post('inter/needMoreInfo.php', '', function(data) {
 			if(data == "true") {
 				firstTime();
 			} else {

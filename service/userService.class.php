@@ -4,6 +4,8 @@ require_once dirname ( __FILE__ ) . '/../tools/SQLHelper.class.php';
 
 class UserService {
 	
+	private $userPerPage = 10;
+	
 	// 用户登录验证
 	public function login($username, $password) {
 		
@@ -19,6 +21,7 @@ class UserService {
 			$arr = array();
 			$arr['username'] = $res[0]['username'];
 			$arr['userid'] = $res[0]['id'];
+			$arr['is_admin'] = $res[0]['is_admin'];
 			
 			// 存Session
 			session_start();
@@ -92,6 +95,36 @@ class UserService {
 		} else {
 			return false;
 		}
+		
+	}
+	
+	// 获取用户Page数
+	public function getUserListPageNum() {
+		
+		$sql = "select count(id) as count from xxw_user";
+		$sqlHelper = new SQLHelper();
+		
+		$arr = $sqlHelper->execute_dql_array($sql);
+
+		$totalUserCount = $arr[0]['count'];
+		if($totalUserCount % $this->userPerPage) {
+			$totalPage = $totalUserCount / $this->userPerPage;
+		} else {
+			$totalPage = $totalUserCount / $this->userPerPage + 1;
+		}
+		return $totalPage;
+		
+	}
+	
+	// 获取一页用户
+	public function getUserByPage($curPage) {
+		
+		$sql = "select * from xxw_user limit " . ($curPage - 1) * $this->userPerPage . "," . $this->userPerPage;
+		$sqlHelper = new SQLHelper();
+		
+		$res = $sqlHelper->execute_dql_array($sql);
+		
+		return $res;
 		
 	}
 	
