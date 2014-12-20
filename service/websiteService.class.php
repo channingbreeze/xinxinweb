@@ -42,6 +42,30 @@ class WebsiteService {
 		
 	}
 	
+	//更新一个网站的域名
+	public function updateDebugDomain($debugDomain, $websiteId) {
+		$sql = "update xxw_website set debug_domain='" . $debugDomain . "' where id=" . $websiteId;
+		$sqlHelper = new SQLHelper();
+		$res = $sqlHelper->execute_dqm($sql);
+		if($res == 1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	//更新一个网站的密码
+	public function updateDebugDomainPassword($debugDomainPassword, $websiteId) {
+		$sql = "update xxw_website set debug_domain_password='" . $debugDomainPassword . "' where id=" . $websiteId;
+		$sqlHelper = new SQLHelper();
+		$res = $sqlHelper->execute_dqm($sql);
+		if($res == 1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
 }
 
 ?>

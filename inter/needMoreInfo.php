@@ -2,11 +2,11 @@
 
 require_once dirname ( __FILE__ ) . '/../service/userService.class.php';
 
-if(!(isset($_POST['userid']))
-	|| empty($_POST['userid'])) {
+session_start();
+if(!isset($_SESSION['user'])) {
 	echo "false";
 } else {
-	$userid = $_POST['userid'];
+	$userid = $_SESSION['user']['userid'];
 	$userService = new UserService();
 	$res = $userService->needMoreInfo($userid);
 	if($res) {

@@ -92,6 +92,10 @@ body {
   font-size: 12px;
 }
 
+.bottom_div .bottom_main span a {
+  text-decoration: none;
+}
+
 .back_overlay {
   position: absolute;
   top: 0;
@@ -838,4 +842,49 @@ body {
   background-color: #7BA5DE;
   border-radius: 10px;
   outline: none;
+}
+
+.pagination {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.pagination li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  list-style-type: none;
+}
+
+.admin_user {
+  text-align: center;
+}
+
+.admin_user h1 {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+}
+
+.admin_user .admin_user_table table {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.admin_user .admin_user_table table tr {
+  height: 30px;
+}
+
+.admin_user .admin_user_table table tr a {
+  color: #57CD0A;
+  text-decoration: none;
+}
+
+.admin_user .admin_user_pagination {
+  display: inline-block;
+}
+
+.admin_web {
+  display: none;
 }

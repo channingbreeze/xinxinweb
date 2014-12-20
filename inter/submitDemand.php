@@ -2,6 +2,7 @@
 
 require_once dirname ( __FILE__ ) . '/../service/websiteService.class.php';
 require_once dirname ( __FILE__ ) . '/../service/statusService.class.php';
+require_once dirname ( __FILE__ ) . '/../service/mailService.class.php';
 
 if(!(isset($_POST['website_name']) && isset($_POST['demand']))
 	|| empty($_POST['website_name'])
@@ -18,8 +19,10 @@ if(!(isset($_POST['website_name']) && isset($_POST['demand']))
 		echo "false";
 	} else {
 		$statusService = new StatusService();
-		$res = $statusService->createStatus($websiteId, $demand);
+		$res = $statusService->createStatus($websiteId, $demand, 1);
 		if($res) {
+			$mailService = new MailService();
+			$mailService->sendToAdminEmail($_SESSION['user']['username']);
 			echo "true";
 		} else {
 			echo "false";

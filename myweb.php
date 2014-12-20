@@ -69,14 +69,6 @@
 		</div>
 	</div>
 	<script>
-	<?php
-		if(isset($_SESSION['user'])) {
-	?>
-		var USERID='<?php echo $_SESSION['user']['userid'];?>';
-		var USERNAME='<?php echo $_SESSION['user']['username'];?>';
-	<?php
-		}
-	?>
         seajs.use("modules/myweb");
     </script>
 </body>
