@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+<head>
+	<meta charset=utf-8 />
+	<title>欣欣网站制作</title>
 <?php 
 session_start();
 if(!isset($_SESSION['user'])) {

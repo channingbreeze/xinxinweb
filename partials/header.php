@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<head>
-	<meta charset=utf-8 />
-	<title>欣欣网站制作</title>
 	<link href="css/xinxinweb.css" rel="stylesheet">
 	<script src="js/seajs/sea.js"></script>
 	<script src="js/config.js"></script>

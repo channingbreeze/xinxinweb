@@ -1,6 +1,6 @@
 (function(){
 
-	var XINXINWEB = 'http://localhost/xinxinweb';
+	var XINXINWEB = 'http://localhost/webxinxin';
 
 	seajs.config({
 	

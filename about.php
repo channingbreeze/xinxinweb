@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<head>
+	<meta charset=utf-8 />
+	<title>欣欣网站制作|网站制作|建站|做网站|关于</title>
+	<meta name="Keywords" content="欣欣网站制作，关于网站，网站设计，网站制作，建站，做网站，网站推广，互联网推广" />
+	<meta name="Description" content="欣欣网站制作是一种全新的交互式建站方式，构建真正属于你自己的网站" />
 <?php 
 	include_once 'partials/header.php';
 ?>
