@@ -12,6 +12,7 @@
 		<li data-id="info1">网站特点</li>
 		<li data-id="info2">收费标准</li>
 		<li data-id="info3">团队介绍</li>
+		<li data-id="info4">配套教程</li>
 	</ul>
 </div>
 <div class="about_info_div">
@@ -45,6 +46,16 @@
 			<p>&nbsp;&nbsp;&nbsp;&nbsp;我们的技术团队来自全球市值第二的互联网公司，拥有全球领先的建站技术，网站绝对原创，让您的网站与众不用</p>
 			<p>&nbsp;&nbsp;&nbsp;&nbsp;团队强调客户至上，每一个功能的添加都实际切合用户的需求，避免千篇一律的模板套用</p>
 			<p>&nbsp;&nbsp;&nbsp;&nbsp;团队专注于互联网建站领域，如有感兴趣的同仁，欢迎加入，我们一起用互联网帮助更多需要帮助的人</p>
+		</div>
+	</div>
+	<div id="info4" class="info">
+		<span class="title">配套教程</span>
+		<div class="text">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;觉得自己没有技术，不知道怎么开始么？</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;觉得自己没有时间，想学习不知道怎么下手？</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;觉得互联网发展很快，自己跟不上节奏么？</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;觉得网上教程太杂，书本不实在，自己很迷茫？</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;网站配套教程 <a href="http://www.calfnote.com" target="_blank" rel="nofollow">玩命牛的学习笔记</a> 带你进军互联网，和玩命牛一起加油吧！</p>
 		</div>
 	</div>
 </div>
