@@ -96,6 +96,10 @@ body {
   text-decoration: none;
 }
 
+.bottom_div .bottom_main .copy {
+  font-family: 'Arial';
+}
+
 .back_overlay {
   position: absolute;
   top: 0;
