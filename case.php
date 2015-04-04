@@ -14,7 +14,7 @@
 		<div class="info_div">
 			<span>网站名称：</span>骏马留学<br/>
 			<span>网站介绍：</span>一个留学中介网站<br/>
-			<span>网站地址：</span><a href="http://dreamer.xinxinweb.xyz/" target="_blank" rel="nofollow">http://dreamer.xinxinweb.xyz/</a><br/>
+			<span>网站地址：</span><a href="http://dreamer.webxinxin.com/" target="_blank" rel="nofollow">http://dreamer.xinxinweb.xyz/</a><br/>
 		</div>
 		<div class="image_div">
 			<img src="images/case1.jpg" alt="欣欣网站制作-案例" width="100%" height="100%" />
@@ -38,6 +38,16 @@
 		</div>
 		<div class="image_div">
 			<img src="images/case3.jpg" alt="欣欣网站制作-案例" width="100%" height="100%" />
+		</div>
+	</li>
+	<li>
+		<div class="info_div">
+			<span>网站名称：</span>宠恋秀<br/>
+			<span>网站介绍：</span>个人宠物网站，玩命牛的学习例程<br/>
+			<span>网站地址：</span><a href="http://petshow.webxinxin.com/" target="_blank" rel="nofollow">http://www.calfnote.com/</a><br/>
+		</div>
+		<div class="image_div">
+			<img src="images/case4.jpg" alt="欣欣网站制作-案例" width="100%" height="100%" />
 		</div>
 	</li>
 </ul>
