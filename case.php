@@ -44,7 +44,7 @@
 		<div class="info_div">
 			<span>网站名称：</span>宠恋秀<br/>
 			<span>网站介绍：</span>个人宠物网站，玩命牛的学习例程<br/>
-			<span>网站地址：</span><a href="http://petshow.webxinxin.com/" target="_blank" rel="nofollow">http://www.calfnote.com/</a><br/>
+			<span>网站地址：</span><a href="http://petshow.webxinxin.com/" target="_blank" rel="nofollow">http://petshow.webxinxin.com/</a><br/>
 		</div>
 		<div class="image_div">
 			<img src="images/case4.jpg" alt="欣欣网站制作-案例" width="100%" height="100%" />
