@@ -9,6 +9,7 @@ define(function(require, exports, module){
 	});
 	
 	$('#login_btn').on('click', function() {
+		$('#back').css('height', document.body.scrollHeight + 'px');
 		$('#back').css('display', 'block');
 		$('#login_dialog')
 		.animate(
